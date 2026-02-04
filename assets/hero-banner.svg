@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D1236"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+    </linearGradient>
+    <linearGradient id="landGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4AF37;stop-opacity:0.25"/>
+      <stop offset="100%" style="stop-color:#D4AF37;stop-opacity:0.05"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#D4AF37"/>
+      <stop offset="50%" style="stop-color:#fef08a"/>
+      <stop offset="100%" style="stop-color:#D4AF37"/>
+    </linearGradient>
+    <filter id="glow2">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="batikGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M0 40L40 0H20L0 20M40 40V20L20 40" stroke="#D4AF37" stroke-width="0.5" fill="none" opacity="0.15"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="300" fill="url(#heroBg)"/>
+  <rect width="900" height="300" fill="url(#batikGrid)"/>
+
+  <!-- Indonesian Archipelago Silhouette -->
+  <g fill="url(#landGrad)" stroke="#D4AF37" stroke-opacity="0.6" stroke-width="0.8">
+    <!-- Sumatra -->
+    <path d="M60,100 Q85,85 110,100 L150,150 L180,230 L190,260 L165,280 Q130,270 105,235 L65,165 Q45,125 60,100 Z"/>
+    <!-- Java -->
+    <path d="M180,285 L400,300 L390,315 L170,300 Z"/>
+    <!-- Kalimantan -->
+    <path d="M220,200 L255,120 L350,135 L375,200 L325,250 L235,235 Z"/>
+    <!-- Sulawesi -->
+    <path d="M400,170 L425,155 L410,200 L445,175 L460,225 L420,240 L400,200 Z"/>
+    <!-- Papua -->
+    <path d="M620,180 L750,155 L850,205 L810,250 L680,225 Z"/>
+    <!-- Small Islands -->
+    <path d="M410,310 L520,300 L510,315 L410,325 Z" opacity="0.5"/>
+    <path d="M530,170 L580,160 L565,225 L530,200 Z" opacity="0.5"/>
+  </g>
+
+  <!-- Connection Lines (Data Flow) -->
+  <g fill="none" stroke="#06b6d4" stroke-linecap="round" stroke-width="1" filter="url(#glow2)">
+    <path d="M145,200 Q165,250 220,295" stroke-dasharray="4,4" opacity="0.6"/>
+    <path d="M260,295 Q290,245 300,200" stroke-dasharray="6,4" opacity="0.5"/>
+    <path d="M330,180 Q380,165 420,195" stroke-dasharray="3,5" opacity="0.4"/>
+    <path d="M330,300 Q380,265 430,220" stroke-dasharray="8,4" opacity="0.3"/>
+    <path d="M470,210 Q560,180 680,205" stroke-dasharray="10,6" opacity="0.3"/>
+  </g>
+
+  <!-- Data Nodes -->
+  <circle cx="95" cy="135" r="3" fill="#06b6d4"/>
+  <circle cx="220" cy="295" r="4" fill="#fff" filter="url(#glow2)"/>
+  <circle cx="220" cy="295" r="10" fill="none" stroke="#D4AF37" stroke-width="0.5" opacity="0.8"/>
+  <circle cx="330" cy="215" r="3" fill="#06b6d4"/>
+  <circle cx="420" cy="220" r="3" fill="#06b6d4"/>
+  <circle cx="780" cy="195" r="3" fill="#06b6d4"/>
+  <circle cx="145" cy="200" r="2" fill="#06b6d4"/>
+  <circle cx="330" cy="300" r="2.5" fill="#06b6d4"/>
+
+  <!-- Version Badge -->
+  <rect x="375" y="55" width="150" height="24" rx="12" fill="#0D1236" fill-opacity="0.8" stroke="#D4AF37" stroke-opacity="0.3"/>
+  <text x="450" y="72" fill="#D4AF37" font-family="monospace" font-size="10" text-anchor="middle" letter-spacing="2">ARCHIPELAGO MESH v3.0</text>
+
+  <!-- Main Title -->
+  <text x="450" y="130" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="bold" text-anchor="middle">Building the Future of</text>
+  <text x="450" y="175" fill="url(#textGrad)" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="bold" text-anchor="middle">Spatial Intelligence</text>
+
+  <!-- Terminal Text -->
+  <text x="450" y="220" fill="#22d3ee" font-family="monospace" font-size="12" text-anchor="middle" opacity="0.8">&gt; INITIALIZING OSRM NODES... CONNECTED</text>
+  <text x="450" y="240" fill="#22d3ee" font-family="monospace" font-size="12" text-anchor="middle" opacity="0.8">&gt; MAPPING 17,000+ ISLANDS</text>
+
+  <!-- Bottom Gradient Fade -->
+  <rect x="0" y="250" width="900" height="50" fill="url(#heroBg)" opacity="0.7"/>
+</svg>

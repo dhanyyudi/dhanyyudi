@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="60" viewBox="0 0 800 60">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#161b22"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="60" rx="8" fill="url(#bgGrad)"/>
+  <rect width="800" height="60" rx="8" fill="none" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Python -->
+  <rect x="20" y="15" width="80" height="30" rx="6" fill="#0d1117" stroke="#30363d"/>
+  <text x="60" y="35" fill="#3776AB" font-family="sans-serif" font-size="12" text-anchor="middle" font-weight="500">Python</text>
+
+  <!-- PostGIS -->
+  <rect x="115" y="15" width="80" height="30" rx="6" fill="#0d1117" stroke="#30363d"/>
+  <text x="155" y="35" fill="#336791" font-family="sans-serif" font-size="12" text-anchor="middle" font-weight="500">PostGIS</text>
+
+  <!-- JavaScript -->
+  <rect x="210" y="15" width="80" height="30" rx="6" fill="#0d1117" stroke="#30363d"/>
+  <text x="250" y="35" fill="#F7DF1E" font-family="sans-serif" font-size="12" text-anchor="middle" font-weight="500">JavaScript</text>
+
+  <!-- Node.js -->
+  <rect x="305" y="15" width="80" height="30" rx="6" fill="#0d1117" stroke="#30363d"/>
+  <text x="345" y="35" fill="#339933" font-family="sans-serif" font-size="12" text-anchor="middle" font-weight="500">Node.js</text>
+
+  <!-- Docker -->
+  <rect x="400" y="15" width="80" height="30" rx="6" fill="#0d1117" stroke="#30363d"/>
+  <text x="440" y="35" fill="#2496ED" font-family="sans-serif" font-size="12" text-anchor="middle" font-weight="500">Docker</text>
+
+  <!-- AWS -->
+  <rect x="495" y="15" width="80" height="30" rx="6" fill="#0d1117" stroke="#30363d"/>
+  <text x="535" y="35" fill="#FF9900" font-family="sans-serif" font-size="12" text-anchor="middle" font-weight="500">AWS</text>
+
+  <!-- Mapbox -->
+  <rect x="590" y="15" width="80" height="30" rx="6" fill="#0d1117" stroke="#30363d"/>
+  <text x="630" y="35" fill="#4264fb" font-family="sans-serif" font-size="12" text-anchor="middle" font-weight="500">Mapbox</text>
+
+  <!-- Git -->
+  <rect x="685" y="15" width="80" height="30" rx="6" fill="#0d1117" stroke="#30363d"/>
+  <text x="725" y="35" fill="#F05032" font-family="sans-serif" font-size="12" text-anchor="middle" font-weight="500">Git</text>
+</svg>
