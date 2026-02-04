@@ -45,11 +45,11 @@
   <a href="https://docs.docker.com/">
     <img src="./assets/stack-docker.svg" width="80" alt="Docker">
   </a>
-  <a href="https://docs.aws.amazon.com/">
-    <img src="./assets/stack-aws.svg" width="80" alt="AWS">
+  <a href="https://cloud.google.com/docs">
+    <img src="./assets/stack-gcp.svg" width="80" alt="GCP">
   </a>
-  <a href="https://docs.mapbox.com/">
-    <img src="./assets/stack-mapbox.svg" width="80" alt="Mapbox">
+  <a href="https://maplibre.org/maplibre-gl-js/docs/">
+    <img src="./assets/stack-maplibre.svg" width="80" alt="MapLibre">
   </a>
   <a href="https://git-scm.com/doc">
     <img src="./assets/stack-git.svg" width="80" alt="Git">
@@ -74,12 +74,12 @@
 <h2 align="center">Contribution Insights</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dhanyyudi&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=D4AF37&icon_color=D4AF37&text_color=c9d1d9" alt="GitHub Stats" height="165">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dhanyyudi&theme=github-dark-blue&hide_border=true&background=0d1117&ring=D4AF37&fire=D4AF37&currStreakLabel=D4AF37" alt="GitHub Streak" height="165">
+  <img src="./assets/stats-overview.svg" width="49%" alt="GitHub Stats">
+  <img src="./assets/stats-streak.svg" width="49%" alt="GitHub Streak">
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhanyyudi&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact&bg_color=0d1117&title_color=D4AF37&text_color=c9d1d9" alt="Top Languages">
+  <img src="./assets/stats-languages.svg" width="60%" alt="Top Languages">
 </p>
 
 ---
