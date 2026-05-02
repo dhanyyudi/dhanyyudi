@@ -94,12 +94,12 @@ Data       : ETL, geocoding, topology checks, transport and building datasets
 ## GitHub Signal
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dhanyyudi&show_icons=true&hide_border=true&bg_color=0B1220&title_color=F0C44C&icon_color=16C7E7&text_color=E6EDF3" alt="Dhany Yudi GitHub stats" width="49%" />
-  <img src="https://streak-stats.demolab.com?user=dhanyyudi&hide_border=true&background=0B1220&ring=F0C44C&fire=F0C44C&currStreakLabel=16C7E7&sideLabels=E6EDF3&dates=9BA7B4&sideNums=E6EDF3&currStreakNum=E6EDF3" alt="Dhany Yudi contribution streak" width="49%" />
+  <img src="./assets/stats-overview.svg" alt="Dhany Yudi GitHub stats" width="49%" />
+  <img src="./assets/stats-streak.svg" alt="Dhany Yudi contribution streak" width="49%" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhanyyudi&layout=compact&hide_border=true&bg_color=0B1220&title_color=F0C44C&text_color=E6EDF3" alt="Most used languages" width="49%" />
+  <img src="./assets/stats-languages.svg" alt="Most used languages" width="49%" />
 </div>
 
 <br/>
