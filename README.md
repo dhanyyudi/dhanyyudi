@@ -1,111 +1,31 @@
-<div align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg" /><img src="./assets/header-dark.svg" alt="Dhany Yudi Prasetyo, Geospatial and GIS Engineer" width="100%" /></picture>
 
-<img src="./assets/profile/hero-cartography-gis.png" alt="Dhany Yudi - Cartography and GIS Engineer" width="100%" />
+I build routing engines, WebGIS applications, and spatial data systems for mobility and infrastructure, from UAV LiDAR on the ground to OSRM routing profiles in production. For about two years I ran a mobility company's GIS, routing and map tooling as a one-person function.
 
-<br/>
+[dhanypedia.com](https://www.dhanypedia.com) · [CV](https://www.dhanypedia.com/cv) · [LinkedIn](https://linkedin.com/in/dhanyyudi) · [Email](mailto:dhanyyudi.prasetyo@gmail.com)
 
-<a href="https://linkedin.com/in/dhanyyudi">
-  <img src="https://img.shields.io/badge/LinkedIn-dhanyyudi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-<a href="https://www.giswaypoint.my.id/">
-  <img src="https://img.shields.io/badge/GIS_Waypoint-live-16C7E7?style=for-the-badge&logo=mapbox&logoColor=white" alt="GIS Waypoint" />
-</a>
-<img src="https://img.shields.io/badge/Jakarta-Indonesia-F0C44C?style=for-the-badge&logo=googlemaps&logoColor=0B1220" alt="Jakarta, Indonesia" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/numbers-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/numbers-light.svg" /><img src="./assets/numbers-dark.svg" alt="14 vehicle classes in production OSRM profiles · 5 Asian markets · 131.69 km toll corridor mapped with UAV LiDAR · 18 published projects" width="100%" /></picture>
 
-</div>
+### Open source
 
-<br/>
+<p>
+  <a href="https://github.com/dhanyyudi/wilayah-id"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/wilayah-id-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/cards/wilayah-id-light.svg" /><img src="./assets/cards/wilayah-id-dark.svg" alt="wilayah-id: Indonesian administrative boundaries, region codes and postal codes API" width="49%" /></picture></a>
+  <a href="https://github.com/dhanyyudi/osmroad"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/osmroad-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/cards/osmroad-light.svg" /><img src="./assets/cards/osmroad-dark.svg" alt="osmroad: Browser viewer for .osm.pbf road extracts with GeoParquet export" width="49%" /></picture></a>
+</p>
+<p>
+  <a href="https://github.com/dhanyyudi/valhalla-route-id"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/valhalla-route-id-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/cards/valhalla-route-id-light.svg" /><img src="./assets/cards/valhalla-route-id-dark.svg" alt="valhalla-route-id: Valhalla routing tuned for Indonesian roads" width="49%" /></picture></a>
+  <a href="https://github.com/dhanyyudi/bmkg-api"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/bmkg-api-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/cards/bmkg-api-light.svg" /><img src="./assets/cards/bmkg-api-dark.svg" alt="bmkg-api: BMKG weather and earthquake data as JSON, with an MCP server" width="49%" /></picture></a>
+</p>
+<p>
+  <a href="https://github.com/dhanyyudi/ridetopo"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/ridetopo-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/cards/ridetopo-light.svg" /><img src="./assets/cards/ridetopo-dark.svg" alt="ridetopo: Round-trip cycling routes with elevation profiles and GPX export" width="49%" /></picture></a>
+  <a href="https://github.com/dhanyyudi/qgis-tree-counter"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/qgis-tree-counter-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/cards/qgis-tree-counter-light.svg" /><img src="./assets/cards/qgis-tree-counter-dark.svg" alt="qgis-tree-counter: Tree counting in aerial imagery with YOLO inside QGIS" width="49%" /></picture></a>
+</p>
 
-## About
+Case studies for client work, including the GeoMatra GIS platform and the Trans Sumatra Toll Road digital twin, live at [dhanypedia.com/projects](https://www.dhanypedia.com/projects).
 
-I build geospatial systems that turn maps, routing, and spatial data into production-ready tools.
+### Toolbox
 
-My work sits around GIS backend services, web mapping, route analysis, geofence validation, spatial ETL, and map-first product interfaces.
-
-```txt
-Focus      : GIS engineering, spatial intelligence, routing, validation
-Backend    : Python, Node.js, PostGIS, Docker, cloud services
-Frontend   : JavaScript, MapLibre GL, interactive geospatial UI
-Data       : ETL, geocoding, topology checks, transport and building datasets
-```
-
-<br/>
-
-## Selected Work
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <a href="https://myosrm.vercel.app/">
-        <img src="./assets/profile/project-osrm-frontend.png" alt="OSRM Frontend" width="100%" />
-      </a>
-      <h3>OSRM Frontend</h3>
-      <p>Advanced route debugging interface for graph edges, turn-by-turn steps, and routing engine behavior.</p>
-      <a href="https://myosrm.vercel.app/">Open demo</a>
-    </td>
-    <td width="33%" valign="top">
-      <a href="https://www.giswaypoint.my.id/">
-        <img src="./assets/profile/project-sg-transport-intel.png" alt="SG Transport Intel" width="100%" />
-      </a>
-      <h3>SG Transport Intel</h3>
-      <p>Public transport cluster maps and spatial exploration workflows for Singapore mobility data.</p>
-      <a href="https://www.giswaypoint.my.id/">Open site</a>
-    </td>
-    <td width="33%" valign="top">
-      <a href="https://geofence-validator.vercel.app/">
-        <img src="./assets/profile/project-next-gen-validator.png" alt="Next-Gen Validator" width="100%" />
-      </a>
-      <h3>Geofence Validator</h3>
-      <p>Geometry validation tool for polygons, self-intersections, topology checks, and geofence QA.</p>
-      <a href="https://geofence-validator.vercel.app/">Open demo</a>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-## Core Stack
-
-<div align="center">
-  <img src="./assets/profile/tech-stack-grid.png" alt="Python, PostGIS, JavaScript, Node.js, Docker, GCP, MapLibre, and Git" width="88%" />
-</div>
-
-<br/>
-
-## What I Care About
-
-<table>
-  <tr>
-    <td width="25%"><b>Spatial correctness</b><br/>Topology, coordinate systems, validation, and reproducible data checks.</td>
-    <td width="25%"><b>Fast map UX</b><br/>Interactive layers, readable cartography, and responsive geospatial interfaces.</td>
-    <td width="25%"><b>Routing systems</b><br/>OSRM-style debugging, network analysis, distance, duration, and route metadata.</td>
-    <td width="25%"><b>Production data</b><br/>ETL pipelines, deployment hygiene, observability, and pragmatic automation.</td>
-  </tr>
-</table>
-
-<br/>
-
-<div align="center">
-  <img src="./assets/profile/currently-coding.png" alt="Currently coding" width="100%" />
-</div>
-
-<br/>
-
-## GitHub Signal
-
-<div align="center">
-  <img src="./assets/stats-overview.svg" alt="Dhany Yudi GitHub stats" width="49%" />
-  <img src="./assets/stats-streak.svg" alt="Dhany Yudi contribution streak" width="49%" />
-</div>
-
-<div align="center">
-  <img src="./assets/stats-languages.svg" alt="Most used languages" width="49%" />
-</div>
-
-<br/>
-
-<div align="center">
-
-`maps` `routing` `postgis` `maplibre` `geospatial-data` `spatial-etl` `gis-backend`
-
-</div>
+**Routing** · OSRM (Lua profiles), Valhalla, network analysis<br/>
+**Spatial data** · PostGIS, QGIS, ArcGIS, LiDAR and photogrammetry<br/>
+**Web mapping** · MapLibre GL, CesiumJS, Leaflet, OGC services<br/>
+**Engineering** · Python, TypeScript, Go, Docker, Cloudflare
